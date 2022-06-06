@@ -1,0 +1,8 @@
+#1 This is is created in the branch dev and it a new file.
+#2 added this line from dev branch and will merge with a new brach and then with master
+# this is a fix to the issue and the code fixno. 100
+<<<<<<< HEAD
+fix no 102 and this fix was done on the master branch
+=======
+# fix no 101 of the code  and a new patch and a new bug fix
+>>>>>>> dev
