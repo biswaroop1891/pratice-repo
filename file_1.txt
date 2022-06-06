@@ -1,3 +1,0 @@
-#1 This is a FILE_TXT_1  ## Also changed this line
-#2 I added another line
-#3 Felt like adding another line
