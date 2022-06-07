@@ -10,10 +10,6 @@
   exit 1
 }
 
-echo "Hello world"
-echo "added yet anotehr line"
-echo "all these are added in my local"
-
 
 TEST_FILE='touch-test-file'
 
