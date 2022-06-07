@@ -20,7 +20,7 @@ KB=$(df -lkP | awk '{print $3}' | grep -v Used | awk '{sum+=$1} END{printf("%d\n
 # Convert size to MB, GB, and TB
 MB=$(round $(echo $KB/1024           | bc -l | sed -e "s/\(\.[0-9]\).*/\1/g"))
 GB=$(round $(echo $KB/1024/1024      | bc -l | sed -e "s/\(\.[0-9]\).*/\1/g"))
-TB=$(round $(echo $KB/1024/1024/1024 | bc -l | sed -e "s/\(\.[0-9]\).*/\1/g"))
+#TB=$(round $(echo $KB/1024/1024/1024 | bc -l | sed -e "s/\(\.[0-9]\).*/\1/g"))
 
 # Use the largest human readable size to display
 if [ "$TB" -gt 0 ]
