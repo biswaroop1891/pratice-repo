@@ -10,7 +10,7 @@
   exit 1
 }
 
-
+#added this line from UI
 TEST_FILE='touch-test-file'
 
 START=$(date)
