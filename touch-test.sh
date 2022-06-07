@@ -33,3 +33,4 @@ echo
 echo "Start: $START"
 echo "End:   $END"
 echo "Total: $TOTAL_SECONDS seconds"
+#adding at the end now
