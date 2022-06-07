@@ -4,8 +4,8 @@
 # Touches and deletes a file on each of the locally mounted file systems. 
 # This can help point out read-only mounts and poorly performing mounts.
 
-# Run as root
-[ "$EUID" -eq 0 ] || {
+# Run as any other user
+[ "$EUID" -ne 0 ] || {
   echo 'Please run with sudo or as root.'
   exit 1
 }
