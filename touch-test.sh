@@ -10,6 +10,9 @@
   exit 1
 }
 
+echo "added this line from github UI"
+echo "HI world"
+
 TEST_FILE='touch-test-file'
 
 START=$(date)
