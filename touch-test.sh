@@ -16,6 +16,8 @@ TEST_FILE='touch-test-file'
 START=$(date)
 START_SECONDS=$(date +%s)
 
+#ADDED THIS LINE FROM UI
+
 for MOUNT in $(df -lP | egrep -v '^Filesystem|tmpfs' | awk '{print $NF}')
 do
   TEST_FILE_ON_MOUNT="${MOUNT}/${TEST_FILE}"
