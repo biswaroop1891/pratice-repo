@@ -2,6 +2,7 @@
 
 # Usage: email-when-up -e EMAIL_ADDRESS -h HOST
 # This script send an email when the server/host/device is reachable over the network.
+# This will send you an email
 
 usage() {
   echo "Usage: $0 -e EMAIL_ADDRESS -h HOST" >&2
@@ -43,4 +44,5 @@ do
   fi
   sleep $SECONDS_TO_SLEEP
 done
-
+# I felt like adding this line
+# all from local 
