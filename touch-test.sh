@@ -3,7 +3,7 @@
 # Usage: touch-test
 # Touches and deletes a file on each of the locally mounted file systems. 
 # This can help point out read-only mounts and poorly performing mounts.
-
+# just added
 # Run as any other user
 [ "$EUID" -ne 0 ] || {
   echo 'Please run with sudo or as root.'
